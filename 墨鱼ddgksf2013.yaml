@@ -43,6 +43,7 @@ dns:
     - "*.battlenet.com"
     - "*.blzstatic.cn"
     - "*.battle.net"
+    - "*.anticheatexpert.com"
   nameserver:        # 默认 DNS 服务
     - 223.5.5.5
     - 119.29.29.29
