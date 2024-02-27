@@ -124,6 +124,7 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
+  # 无畏契约安全检查
   - DOMAIN-SUFFIX,anticheatexpert.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,OpenAi,🤖 OpenAi
