@@ -126,6 +126,8 @@ rules:
   - RULE-SET,Download,DIRECT
   # 无畏契约安全检查
   - DOMAIN-SUFFIX,anticheatexpert.com,DIRECT
+  # Steam游戏下载直连
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,OpenAi,🤖 OpenAi
   - RULE-SET,BiliBili,📺 哔哩哔哩
