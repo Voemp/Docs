@@ -128,6 +128,8 @@ rules:
   - DOMAIN-SUFFIX,anticheatexpert.com,DIRECT
   - DOMAIN-SUFFIX,riotcdn.net,DIRECT
   - DOMAIN-SUFFIX,usertrust.com,DIRECT
+  - DOMAIN-SUFFIX,akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,trust-provider.com,DIRECT
   # Steam游戏下载直连
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
