@@ -70,7 +70,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://api.nexconvert.com/sub?target=clash&url=https://api.ouoboom.xyz/api/v1/client/subscribe?token=b734e184b4487c229c8c75093277e9de|https://nano.nachoneko.cn/api/v1/client/subscribe?token=11ed2513ddafc6d5ba0b7c46666ba085&emoji=true&list=true&new_name=true&udp=false
+    url: https://api.nexconvert.com/sub?target=clash&url=https://api.ouoboom.xyz/api/v1/client/subscribe?token=b734e184b4487c229c8c75093277e9de|https://nano.nachoneko.cn/api/v1/client/subscribe?token=a19951c6613f4a028dc8d2ecde48b65f&emoji=true&list=true&new_name=true&udp=false
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
@@ -127,6 +127,7 @@ rules:
   # 无畏契约安全检查
   - DOMAIN-SUFFIX,anticheatexpert.com,DIRECT
   - DOMAIN-SUFFIX,riotcdn.net,DIRECT
+  - DOMAIN-SUFFIX,usertrust.com,DIRECT
   # Steam游戏下载直连
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
