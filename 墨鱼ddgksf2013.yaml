@@ -131,6 +131,7 @@ rules:
   - DOMAIN-SUFFIX,akamaihd.net,DIRECT
   - DOMAIN-SUFFIX,trust-provider.com,DIRECT
   - DOMAIN-SUFFIX,symcd.com,DIRECT
+  - DOMAIN-SUFFIX,gamesafe.qq.com,DIRECT
   # Steam游戏下载直连
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
