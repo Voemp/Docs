@@ -20,12 +20,12 @@ allow-lan: true      # 允许局域网连接
 bind-address: "*"    # 地址绑定
 mode: rule           # 规则模式
 log-level: info      # 日志级别
-ipv6: true          # IPV6开关
+ipv6: false          # IPV6开关
 external-controller: 127.0.0.1:9090
 
 dns:
   enable: true       # 不使用系统 DNS
-  ipv6: true        # 开启 IPV6
+  ipv6: false        # 关闭 IPV6
   listen: 0.0.0.0:53 # dns 监听
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -43,7 +43,6 @@ dns:
     - "*.battlenet.com"
     - "*.blzstatic.cn"
     - "*.battle.net"
-    - "*.anticheatexpert.com"
   nameserver:        # 默认 DNS 服务
     - 223.5.5.5
     - 119.29.29.29
@@ -70,7 +69,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://api.nexconvert.com/sub?target=clash&url=https://api.ouoboom.xyz/api/v1/client/subscribe?token=b734e184b4487c229c8c75093277e9de|https://nano.nachoneko.cn/api/v1/client/subscribe?token=a19951c6613f4a028dc8d2ecde48b65f&emoji=true&list=true&new_name=true&udp=false
+    url: https://subscribe.ouoboom.xyz/api/v1/client/subscribe?token=b734e184b4487c229c8c75093277e9de
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
@@ -82,7 +81,7 @@ proxy-groups:
   - {name: 🌏 全球加速, <<: *a3}
   - {name: 🍎 苹果服务, <<: *a3}
   - {name: 📺 哔哩哔哩, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点]}
-  - {name: 🤖 OpenAi,   type: select, proxies: [🇨🇳 台湾节点, 🇺🇲 美国节点, 🇸🇬 狮城节点]}
+  - {name: 🤖 OpenAi,   type: select, proxies: [🇺🇲 美国节点]}
   - {name: 🎬 国际媒体, <<: *a3}
   - {name: 🌌 谷歌服务, <<: *a3}
   - {name: 📟 电报消息, <<: *a3}
