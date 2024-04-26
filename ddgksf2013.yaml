@@ -133,6 +133,8 @@ rules:
   - DOMAIN-SUFFIX,gamesafe.qq.com,DIRECT
   # Steam游戏下载直连
   - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  # girlgirl爱动漫
+  - DOMAIN-SUFFIX,girigirilove.com,DIRECT
   - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,OpenAi,🤖 OpenAi
   - RULE-SET,BiliBili,📺 哔哩哔哩
