@@ -1,0 +1,17 @@
+# NAME: ExtraRule
+# AUTHOR: Voemp
+# UPDATED: 2024-08-17
+# INTRO: 此规则适用于节省流量，以及修复一些禁止国外IP访问的网站，应分流到DIRECT。
+payload:
+  # 无畏契约安全检查
+  - DOMAIN-SUFFIX,anticheatexpert.com
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,usertrust.com
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,trust-provider.com
+  - DOMAIN-SUFFIX,symcd.com
+  - DOMAIN-SUFFIX,gamesafe.qq.com
+  # Steam游戏下载直连
+  - DOMAIN-SUFFIX,steamcontent.com
+  # girlgirl爱动漫
+  - DOMAIN-SUFFIX,girigirilove.com
