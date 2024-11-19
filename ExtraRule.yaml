@@ -13,5 +13,7 @@ payload:
   - DOMAIN-SUFFIX,gamesafe.qq.com
   # Steam游戏下载直连
   - DOMAIN-SUFFIX,steamcontent.com
+  # Monster Hunter: World
+  - PROCESS-NAME,MonsterHunterWorld.exe
   # girlgirl爱动漫
   - DOMAIN-SUFFIX,girigirilove.com
