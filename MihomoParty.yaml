@@ -62,7 +62,7 @@ rule-providers:
 rules:
   - RULE-SET,AdBlock,AdBlock
   - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
-  - PROCESS-NAME,X6Game-Win64-Shipping.exe,台湾节点    # 无限暖暖
+  - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - RULE-SET,ExtraRule,DIRECT    # 额外分流
   - RULE-SET,OpenAi,OpenAi
   - RULE-SET,BiliBili,哔哩哔哩
