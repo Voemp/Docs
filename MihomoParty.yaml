@@ -23,6 +23,7 @@ proxy-groups:
   - {name: OpenAi,   type: select, proxies: [美国节点, 狮城节点], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png }
   - {name: 国际媒体, type: select, proxies: [自动选择, 手动切换, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点, DIRECT], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png }
   - {name: 谷歌服务, type: select, proxies: [自动选择, 手动切换, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点, DIRECT], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png }
+  - {name: 微软服务, type: select, proxies: [自动选择, 手动切换, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点, DIRECT], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png }
   - {name: 电报消息, type: select, proxies: [自动选择, 手动切换, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点, DIRECT], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png }
   - {name: 推特服务, type: select, proxies: [自动选择, 手动切换, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点, DIRECT], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png }
   - {name: 游戏平台, type: select, proxies: [DIRECT, 手动切换, 自动选择, 香港节点, 日本节点, 台湾节点, 美国节点, 狮城节点], icon: https://ghfast.top/https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png }
@@ -72,7 +73,7 @@ rules:
   - RULE-SET,GlobalMedia,国际媒体
   - RULE-SET,Apple,苹果服务
   - RULE-SET,Github,全球加速
-  - RULE-SET,Microsoft,全球加速
+  - RULE-SET,Microsoft,微软服务
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Telegram,电报消息
   - RULE-SET,Twitter,全球加速
