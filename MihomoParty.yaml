@@ -65,6 +65,7 @@ rules:
   - RULE-SET,AdBlock,AdBlock
   - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
   - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
+  - DOMAIN-SUFFIX,girigirilove.com,狮城节点    # GirigiriLove
   - RULE-SET,ExtraRule,DIRECT    # 额外分流
   - RULE-SET,OpenAi,OpenAi
   - RULE-SET,Emby,Emby服务
