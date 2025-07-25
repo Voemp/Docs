@@ -17,5 +17,7 @@ payload:
   - DOMAIN-SUFFIX,clngaa.com
   # Monster Hunter: World
   - PROCESS-NAME,MonsterHunterWorld.exe
+  # 闪链
+  - DOMAIN-SUFFIX,wpurl.cc
   # girlgirl爱动漫
   # - DOMAIN-SUFFIX,girigirilove.com
