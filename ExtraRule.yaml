@@ -19,5 +19,7 @@ payload:
   - PROCESS-NAME,MonsterHunterWorld.exe
   # 闪链
   - DOMAIN-SUFFIX,wpurl.cc
+  # Cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
   # girlgirl爱动漫
   # - DOMAIN-SUFFIX,girigirilove.com
