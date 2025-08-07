@@ -21,5 +21,7 @@ payload:
   - DOMAIN-SUFFIX,wpurl.cc
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
+  # LINUX DO
+  - DOMAIN-SUFFIX,linux.do
   # girlgirl爱动漫
   # - DOMAIN-SUFFIX,girigirilove.com
