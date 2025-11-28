@@ -12,9 +12,7 @@ payload:
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,gamesafe.qq.com
   # Steam游戏下载直连
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,eccdnx.com
-  - DOMAIN-SUFFIX,clngaa.com
+  - DOMAIN-SUFFIX,steamserver.net
   # Monster Hunter: World
   - PROCESS-NAME,MonsterHunterWorld.exe
   # 闪链
