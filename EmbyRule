@@ -1,0 +1,15 @@
+# NAME: EmbyRule
+# AUTHOR: Voemp
+# UPDATED: 2026-02-19
+# DESCRIPTION: 此规则适用于 Emby 分流
+payload:
+  # 二刺螈
+  - DOMAIN-SUFFIX,media.nijigem.by
+  - DOMAIN-SUFFIX,default.cdn.bgp.yt
+  - DOMAIN-SUFFIX,ct.cdn.bgp.yt
+  - DOMAIN-SUFFIX,cm.cdn.bgp.yt
+  - DOMAIN-SUFFIX,cu.cdn.bgp.yt
+  # HOHAI
+  - DOMAIN-SUFFIX,emby-npo.hohai.eu.org
+  # Best Telecom
+  - DOMAIN-SUFFIX,best.besttelecom.cc
