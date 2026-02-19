@@ -5,11 +5,12 @@
 payload:
   # 二刺螈
   - DOMAIN-SUFFIX,media.nijigem.by
-  - DOMAIN-SUFFIX,default.cdn.bgp.yt
-  - DOMAIN-SUFFIX,ct.cdn.bgp.yt
-  - DOMAIN-SUFFIX,cm.cdn.bgp.yt
-  - DOMAIN-SUFFIX,cu.cdn.bgp.yt
+  - DOMAIN-SUFFIX,cdn.bgp.yt
   # HOHAI
-  - DOMAIN-SUFFIX,emby-npo.hohai.eu.org
+  - DOMAIN-SUFFIX,hohai.eu.org
+  # 月饼
+  - DOMAIN-SUFFIX,uhebs.emby.my
+  # UHD
+  - DOMAIN-SUFFIX,uhdnow.com
   # Best Telecom
   - DOMAIN-SUFFIX,best.besttelecom.cc
