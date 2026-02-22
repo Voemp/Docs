@@ -68,6 +68,7 @@ rules:
   - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
   - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - DOMAIN-SUFFIX,girigirilove.com,Emby服务    # GirigiriLove
+  - DOMAIN-SUFFIX,linux.do,全球加速    # LINUX DO
   - RULE-SET,ExtraRule,DIRECT    # 额外分流
   - RULE-SET,EmbyRule,Emby服务    # 额外 Emby 分流
   - RULE-SET,OpenAi,OpenAi
