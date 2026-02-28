@@ -8,6 +8,8 @@ payload:
   - DOMAIN-SUFFIX,cdn.bgp.yt
   # HOHAI
   - DOMAIN-SUFFIX,hohai.eu.org
+  # 結束バンド
+  - DOMAIN-SUFFIX,kessoku-bando.biliblili.uk
   # 月饼
   - DOMAIN-SUFFIX,uhebs.emby.my
   # UHD
