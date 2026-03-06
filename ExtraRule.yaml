@@ -21,6 +21,8 @@ payload:
   - DOMAIN-SUFFIX,wpurl.cc
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
+  # Voemp
+  - DOMAIN-SUFFIX,voemp.top
   # LINUX DO
   - DOMAIN-SUFFIX,linux.do
   # girlgirl爱动漫
