@@ -69,7 +69,7 @@ rules:
   - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - DOMAIN-SUFFIX,girigirilove.com,Emby服务    # GirigiriLove
   - DOMAIN-SUFFIX,linux.do,全球加速    # LINUX DO
-  - RULE-SET,DirectaRule,DIRECT    # 额外 DIRECT 分流
+  - RULE-SET,DirectRule,DIRECT    # 额外 DIRECT 分流
   - RULE-SET,EmbyRule,Emby服务    # 额外 Emby 分流
   - RULE-SET,OpenAi,OpenAi
   - RULE-SET,Emby,Emby服务
