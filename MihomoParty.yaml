@@ -66,6 +66,7 @@ rule-providers:
 rules:
   - RULE-SET,AdBlock,AdBlock
   - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
+  - PROCESS-NAME,MonsterHunterRise.exe,DIRECT    # MHRS
   - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - DOMAIN-SUFFIX,girigirilove.com,Emby服务    # GirigiriLove
   - DOMAIN-SUFFIX,linux.do,全球加速    # LINUX DO
