@@ -65,9 +65,6 @@ rule-providers:
 # 分流Policy 
 rules:
   - RULE-SET,AdBlock,AdBlock
-  - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
-  - PROCESS-NAME,MonsterHunterRise.exe,DIRECT    # MHRS
-  - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - DOMAIN-SUFFIX,girigirilove.com,Emby服务    # GirigiriLove
   - DOMAIN-SUFFIX,linux.do,全球加速    # LINUX DO
   - RULE-SET,DirectRule,DIRECT    # 额外 DIRECT 分流
@@ -90,4 +87,8 @@ rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
   - GEOIP,CN,DIRECT
+  - PROCESS-NAME,deadlock.exe,DIRECT    # Deadlock
+  - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
+  - PROCESS-NAME,MonsterHunterRise.exe,DIRECT    # MHRS
+  - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - MATCH,兜底分流
