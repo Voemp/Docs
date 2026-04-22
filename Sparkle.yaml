@@ -1,16 +1,10 @@
 #==========================================
-# @ConfigName        墨鱼自用MihomoParty配置文件
-# @Author            @ddgksf2013
-# @TgChannel         https://t.me/ddgksf2021
-# @WechatID          墨鱼手记
-# @Feedback          💡请通过邮件反馈问题[其它方式一概无视]：𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑@𝟏𝟔𝟑.𝐜𝐨𝐦 💡
-# @UpdateTime        2025/02/17 18:28 UTC/GMT +8
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、策略图标等  
-# @mihomo-party      https://github.com/mihomo-party-org/mihomo-party/releases
+# @ConfigName        Voemp 自用 Sparkle 覆写
+# @Author            @Voemp, @ddgksf2013
+# @UpdateTime        2026/04/22
+# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、策略图标等
 # @howtouse          主界面添加本配置[覆写]，然后使用内置的[SubStore]添加机场，之后去[订阅管理]，在配置的[编辑信息]中绑定机场订阅，开启系统代理即可使用
 # @Thanks            @blackmatrix7, @Fndroid, @Anti, @Orz-3, @Koolson, @soffchen, @ACL4SSR, @Cats-Team
-# @ConfigVersion     1.0.18
-# @ConfigUrl         https://github.com/ddgksf2013/Profile/raw/master/MihomoParty.yaml
 #==========================================
 
 proxy-groups:
@@ -59,8 +53,8 @@ rule-providers:
   Lan:         {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml ,                            path: ./ruleset/Lan.yaml          }
   Download:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml ,                  path: ./ruleset/Download.yaml     }
   ChinaIP:     {behavior: ipcidr,    interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-rule-provider.yml ,                                     path: ./ruleset/ChinaIP.yaml      }
-  DirectRule:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/Voemp/Docs/main/DirectRule.yaml,                                                         path: ./ruleset/ExtraRule.yaml    }
-  EmbyRule:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/Voemp/Docs/main/EmbyRule.yaml,                                                           path: ./ruleset/EmbyRule.yaml     }
+  DirectRule:  {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/Voemp/ProxyConfig/main/rule/DirectRule.yaml,                                             path: ./ruleset/ExtraRule.yaml    }
+  EmbyRule:    {behavior: classical, interval: 86400, format: yaml, type: http, url: https://ghfast.top/https://raw.githubusercontent.com/VoempProxyConfig/main/rule/EmbyRule.yaml,                                                path: ./ruleset/EmbyRule.yaml     }
 
 # 分流Policy 
 rules:
@@ -87,8 +81,4 @@ rules:
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
   - GEOIP,CN,DIRECT
-  - PROCESS-NAME,deadlock.exe,DIRECT    # Deadlock
-  - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT    # MHWI
-  - PROCESS-NAME,MonsterHunterRise.exe,DIRECT    # MHRS
-  - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT    # 无限暖暖
   - MATCH,兜底分流
