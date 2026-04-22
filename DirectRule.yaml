@@ -1,7 +1,6 @@
 # NAME: DirectRule
 # AUTHOR: Voemp
-# UPDATED: 2026-03-06
-# DESCRIPTION: 此规则适用于节省流量，以及修复一些禁止国外IP访问的网站，应分流到DIRECT。
+# DESCRIPTION: 此规则适用于节省流量，以及修复一些禁止国外IP访问的网站与应用，应分流到DIRECT。
 payload:
   # 无畏契约安全检查
   - DOMAIN-SUFFIX,anticheatexpert.com
@@ -27,3 +26,13 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   # girlgirl爱动漫
   # - DOMAIN-SUFFIX,girigirilove.com
+  # Deadlock
+  - PROCESS-NAME,deadlock.exe,DIRECT
+  # MHWI
+  - PROCESS-NAME,MonsterHunterWorld.exe,DIRECT
+  # MHRS
+  - PROCESS-NAME,MonsterHunterRise.exe,DIRECT
+  # 无限暖暖
+  - PROCESS-NAME,X6Game-Win64-Shipping.exe,DIRECT
+  # Oopz
+  - PROCESS-NAME,oopz.exe,DIRECT
