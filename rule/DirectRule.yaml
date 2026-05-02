@@ -28,6 +28,8 @@ payload:
   # - DOMAIN-SUFFIX,girigirilove.com
   # Deadlock
   - PROCESS-NAME,deadlock.exe
+  # FarFarWest
+  - PROCESS-NAME,FarFarWest-Win64-Shipping.exe
   # MHWI
   - PROCESS-NAME,MonsterHunterWorld.exe
   # MHRS
